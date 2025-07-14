@@ -198,7 +198,16 @@ function App() {
                                     name="name"
                                     className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
                                     placeholder="Your Name"
-                                    required
+                                />
+                            </div>
+                            <div>
+                                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Email</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
+                                    placeholder="your.email@example.com"
                                 />
                             </div>
                             <div>
@@ -209,14 +218,14 @@ function App() {
                                     rows="5"
                                     className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
                                     placeholder="Your message..."
-                                    required
                                 ></textarea>
                             </div>
-                            <input
+                            <button
                                 type="submit"
-                                value="Send Email"
-                                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg cursor-pointer transition-all duration-300"
-                            />
+                                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
+                            >
+                                Send Message
+                            </button>
                         </form>
                         <div className="mt-8 text-center text-gray-400">
                             <p>Or connect with me on:</p>
