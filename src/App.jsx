@@ -7,7 +7,7 @@ function App() {
             {/* Navbar - Simple navigation for sections */}
             <nav className="fixed w-full bg-gray-800 bg-opacity-90 z-20 shadow-lg py-4">
                 <div className="container mx-auto flex justify-between items-center px-4 sm:px-6 lg:px-8">
-                    <a href="#hero" className="text-2xl font-bold text-indigo-400 rounded-lg px-3 py-1 hover:bg-indigo-700 transition-colors duration-300">Your Name</a>
+                    <a href="#hero" className="text-2xl font-bold text-indigo-400 rounded-lg px-3 py-1 hover:bg-indigo-700 transition-colors duration-300">Adam Swain</a>
                     <div className="space-x-4">
                         <a href="#projects" className="text-lg hover:text-indigo-400 transition-colors duration-300 rounded-lg px-3 py-1 hover:bg-gray-700">Projects</a>
                         <a href="#skills" className="text-lg hover:text-indigo-400 transition-colors duration-300 rounded-lg px-3 py-1 hover:bg-gray-700">Skills</a>
@@ -27,10 +27,11 @@ function App() {
 
                 <div className="relative z-10 max-w-4xl mx-auto bg-gray-800 bg-opacity-70 rounded-xl p-8 shadow-2xl transform hover:scale-105 transition-transform duration-500">
                     <h1 className="text-5xl sm:text-6xl font-extrabold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400 animate-pulse-slow">
-                        Hi, I'm [Your Name]
+                        Hi, I'm Adam Swain
                     </h1>
                     <p className="text-xl sm:text-2xl text-gray-300 mb-6">
-                        A passionate Web Developer & Software Engineer building modern, responsive, and user-friendly web applications.
+                        I am passionate Web Developer & Software Engineer building modern, responsive, and user-friendly web applications. I have been building web applications for over 8 years.
+                        I have a strong foundation in front-end and back-end technologies, and I love creating solutions that make a difference.
                     </p>
                     <a
                         href="#projects"
@@ -58,7 +59,7 @@ function App() {
                                 <span className="bg-green-700 text-green-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">PWA</span>
                             </div>
                             <a
-                                href="#"
+                                href="https://github.com/aswain009/PWA"
                                 className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors duration-300"
                             >
                                 View Project &rarr;
@@ -77,7 +78,7 @@ function App() {
                                 <span className="bg-yellow-700 text-yellow-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Animations</span>
                             </div>
                             <a
-                                href="#"
+                                href="https://github.com/aswain009/interactivePortfolio"
                                 className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors duration-300"
                             >
                                 View Project &rarr;
@@ -86,17 +87,17 @@ function App() {
 
                         {/* Project Card 3 - Placeholder */}
                         <div className="bg-gray-800 rounded-xl shadow-xl p-6 transform hover:scale-105 transition-transform duration-300 border border-gray-700 hover:border-indigo-500">
-                            <h3 className="text-2xl font-semibold mb-3 text-white">Project Title Placeholder</h3>
+                            <h3 className="text-2xl font-semibold mb-3 text-white">Python FastAPI</h3>
                             <p className="text-gray-400 mb-4">
-                                Description of your third awesome project. Make it concise and impactful!
+                                This is the code for a Python FastAPI backend application, demonstrating RESTful API development and integration.
                             </p>
                             <div className="flex flex-wrap gap-2 mb-4">
-                                <span className="bg-red-700 text-red-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">HTML</span>
-                                <span className="bg-teal-700 text-teal-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">CSS</span>
-                                <span className="bg-orange-700 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">JavaScript</span>
+                                <span className="bg-red-700 text-red-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Python</span>
+                                <span className="bg-teal-700 text-teal-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">FastAPI</span>
+                                <span className="bg-orange-700 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">SQLModel</span>
                             </div>
                             <a
-                                href="#"
+                                href="https://github.com/aswain009/pythonAPI"
                                 className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors duration-300"
                             >
                                 View Project &rarr;
@@ -124,7 +125,7 @@ function App() {
 
                         {/* Skill Card - Python */}
                         <div
-                            className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-blue-500">
+                            className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-yellow-500">
                             <i className="fab fa-python text-4xl text-blue-400"></i>
                             <span className="text-xl font-medium text-white">Python</span>
                         </div>
@@ -151,7 +152,7 @@ function App() {
                         </div>
 
                         {/* Skill Card 3 */}
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-green-500">
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-orange-500">
                             <i className="fab fa-html5 text-4xl text-orange-400"></i>
                             <span className="text-xl font-medium text-white">HTML5</span>
                         </div>
@@ -166,7 +167,7 @@ function App() {
                             <span className="text-xl font-medium text-white">Node.js</span>
                         </div>
                         {/* Skill Card 6 */}
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-yellow-500">
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-white-500">
                             <i className="fab fa-github text-4xl text-gray-400"></i>
                             <span className="text-xl font-medium text-white">Git & GitHub</span>
                         </div>
@@ -183,7 +184,12 @@ function App() {
                         <p className="text-lg text-gray-300 text-center mb-8">
                             I'm currently looking for new opportunities and collaborations. Feel free to reach out!
                         </p>
-                        <form className="space-y-6">
+                        <form
+                            action="mailto:swain.adam.v@gmail.com"
+                            method="POST"
+                            encType="text/plain"
+                            className="space-y-6"
+                        >
                             <div>
                                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Name</label>
                                 <input
@@ -192,16 +198,7 @@ function App() {
                                     name="name"
                                     className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
                                     placeholder="Your Name"
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                                <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
-                                    placeholder="your.email@example.com"
+                                    required
                                 />
                             </div>
                             <div>
@@ -212,22 +209,22 @@ function App() {
                                     rows="5"
                                     className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
                                     placeholder="Your message..."
+                                    required
                                 ></textarea>
                             </div>
-                            <button
+                            <input
                                 type="submit"
-                                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-                            >
-                                Send Message
-                            </button>
+                                value="Send Email"
+                                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg cursor-pointer transition-all duration-300"
+                            />
                         </form>
                         <div className="mt-8 text-center text-gray-400">
                             <p>Or connect with me on:</p>
                             <div className="flex justify-center space-x-6 mt-4">
-                                <a href="#" className="text-3xl hover:text-indigo-400 transition-colors duration-300">
+                                <a href="https://www.linkedin.com/in/adam-s-b217a610a/" className="text-3xl hover:text-indigo-400 transition-colors duration-300">
                                     <i className="fab fa-linkedin"></i>
                                 </a>
-                                <a href="#" className="text-3xl hover:text-indigo-400 transition-colors duration-300">
+                                <a href="https://github.com/aswain009" className="text-3xl hover:text-indigo-400 transition-colors duration-300">
                                     <i className="fab fa-github"></i>
                                 </a>
                                 {/* Add more social links as needed */}
@@ -240,7 +237,7 @@ function App() {
             {/* Footer */}
             <footer className="bg-gray-800 py-8 text-center text-gray-400 text-sm">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <p>&copy; {new Date().getFullYear()} [Your Name]. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Adam Swain. All rights reserved.</p>
                     <p className="mt-2">Built with React & Tailwind CSS</p>
                 </div>
             </footer>
