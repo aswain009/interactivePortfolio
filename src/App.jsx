@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ContactForm from "./components/ContactForm.jsx";
 // Main App Component
 function App() {
     return (
@@ -184,49 +184,9 @@ function App() {
                         <p className="text-lg text-gray-300 text-center mb-8">
                             I'm currently looking for new opportunities and collaborations. Feel free to reach out!
                         </p>
-                        <form
-                            action="mailto:swain.adam.v@gmail.com"
-                            method="POST"
-                            encType="text/plain"
-                            className="space-y-6"
-                        >
-                            <div>
-                                <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">Name</label>
-                                <input
-                                    type="text"
-                                    id="name"
-                                    name="name"
-                                    className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
-                                    placeholder="Your Name"
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">Email</label>
-                                <input
-                                    type="email"
-                                    id="email"
-                                    name="email"
-                                    className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
-                                    placeholder="your.email@example.com"
-                                />
-                            </div>
-                            <div>
-                                <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">Message</label>
-                                <textarea
-                                    id="message"
-                                    name="message"
-                                    rows="5"
-                                    className="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-white focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-colors duration-300"
-                                    placeholder="Your message..."
-                                ></textarea>
-                            </div>
-                            <button
-                                type="submit"
-                                className="w-full bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg shadow-md transition-all duration-300 transform hover:scale-105 hover:shadow-lg"
-                            >
-                                Send Message
-                            </button>
-                        </form>
+
+                        <ContactForm />
+
                         <div className="mt-8 text-center text-gray-400">
                             <p>Or connect with me on:</p>
                             <div className="flex justify-center space-x-6 mt-4">
