@@ -97,7 +97,7 @@ function App() {
                                 <span className="bg-orange-700 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">SQLModel</span>
                             </div>
                             <a
-                                href="https://github.com/aswain009/pythonAPI"
+                                href="https://github.com/aswain009/FastAPICode"
                                 className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors duration-300"
                             >
                                 View Project &rarr;
