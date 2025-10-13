@@ -220,7 +220,7 @@ function App() {
 
                         <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:accent-red-400">
                             <img
-                                src="src/assets/icons8-spring-boot.svg"
+                                src="/icons8-spring-boot.svg"
                                 alt="Spring Boot"
                                 className="h-10 w-10" /* Tailwind sizing */
                             />
