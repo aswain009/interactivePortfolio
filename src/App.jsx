@@ -214,16 +214,16 @@ function App() {
                             <i className="fab fa-docker text-4xl text-blue-400"></i>
                             <span className="text-xl font-medium text-white">Docker</span>
                         </div>
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:accent-yellow-500">
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-orange-500">
                             <i className="fab fa-java text-4xl text-yellow-300"></i>
                             <span className="text-xl font-medium text-white">JAVA</span>
                         </div>
 
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:accent-red-300">
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-red-300">
                             <img
                                 src={springBootLogo}
                                 alt="Spring Boot"
-                                className="h-10 w-10 text-red-500" /* Tailwind sizing */
+                                className="h-10 w-10" /* Tailwind sizing */
                             />
                             <span className="text-xl font-medium text-white">Spring</span>
                         </div>
