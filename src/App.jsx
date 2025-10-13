@@ -103,6 +103,25 @@ function App() {
                                 View Project &rarr;
                             </a>
                         </div>
+
+                        {/* Project Card 4 */}
+                        <div className="bg-gray-800 rounded-xl shadow-xl p-6 transform hover:scale-105 transition-transform duration-300 border border-gray-700 hover:border-indigo-500">
+                            <h3 className="text-2xl font-semibold mb-3 text-white">CSV Data Clean and Display</h3>
+                            <p className="text-gray-400 mb-4">
+                                This is an application I created to clean and de-doupe data from a CSV file and display the results in a Streamlit app.
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                <span className="bg-purple-700 text-red-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Python</span>
+                                <span className="bg-blue-700 text-teal-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Data Management</span>
+                                <span className="bg-yellow-700 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Streamlit</span>
+                            </div>
+                            <a
+                                href="https://github.com/aswain009/interactivePortfolio"
+                                className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors duration-300"
+                            >
+                                View Project &rarr;
+                            </a>
+                        </div>
                     </div>
                 </div>
             </section>
@@ -114,18 +133,18 @@ function App() {
                     <div className="flex flex-wrap justify-center gap-6">
                         {/* Skill Card 1 */}
                         <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-purple-500">
-                            <i className="fab fa-react text-4xl text-blue-400"></i>
+                            <i className="fab fa-react text-4xl text-sky-300"></i>
                             <span className="text-xl font-medium text-white">React.js</span>
                         </div>
                         {/* Skill Card 2 */}
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-blue-500">
-                            <i className="fab fa-js-square text-4xl text-yellow-400"></i>
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-orange-500">
+                            <i className="fab fa-js-square text-4xl text-yellow-200"></i>
                             <span className="text-xl font-medium text-white">JavaScript (ES6+)</span>
                         </div>
 
                         {/* Skill Card - Python */}
                         <div
-                            className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-yellow-500">
+                            className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-yellow-300">
                             <i className="fab fa-python text-4xl text-blue-400"></i>
                             <span className="text-xl font-medium text-white">Python</span>
                         </div>
@@ -133,41 +152,41 @@ function App() {
                         {/* Skill Card - Fast API */}
                         <div
                             className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-green-500">
-                            <i className="fas fa-bolt text-4xl text-green-400"></i>
+                            <i className="fas fa-bolt text-4xl text-teal-300"></i>
                             <span className="text-xl font-medium text-white">Fast API</span>
                         </div>
 
                         {/* Skill Card - SQL */}
                         <div
-                            className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-purple-500">
-                            <i className="fas fa-database text-4xl text-purple-400"></i>
+                            className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-pink-300">
+                            <i className="fas fa-database text-4xl text-violet-600"></i>
                             <span className="text-xl font-medium text-white">SQL</span>
                         </div>
 
                         {/* Skill Card - PHP */}
                         <div
-                            className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-indigo-500">
+                            className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-cyan-400">
                             <i className="fab fa-php text-4xl text-indigo-400"></i>
                             <span className="text-xl font-medium text-white">PHP</span>
                         </div>
 
                         {/* Skill Card 3 */}
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-orange-500">
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-indigo-100">
                             <i className="fab fa-html5 text-4xl text-orange-400"></i>
                             <span className="text-xl font-medium text-white">HTML5</span>
                         </div>
                         {/* Skill Card 4 */}
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-red-500">
-                            <i className="fab fa-css3-alt text-4xl text-blue-500"></i>
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-emerald-400">
+                            <i className="fab fa-css3-alt text-4xl text-red-700"></i>
                             <span className="text-xl font-medium text-white">CSS3 & Tailwind CSS</span>
                         </div>
                         {/* Skill Card 5 */}
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-teal-500">
-                            <i className="fab fa-node-js text-4xl text-green-400"></i>
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-lime-500">
+                            <i className="fab fa-node-js text-4xl text-green-200"></i>
                             <span className="text-xl font-medium text-white">Node.js</span>
                         </div>
                         {/* Skill Card 6 */}
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-white-500">
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-orange-200">
                             <i className="fab fa-github text-4xl text-gray-400"></i>
                             <span className="text-xl font-medium text-white">Git & GitHub</span>
                         </div>
