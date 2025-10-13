@@ -1,5 +1,6 @@
 import React from 'react';
 import ContactForm from "./components/ContactForm.jsx";
+import springBootLogo from "assets/icons8-spring-boot.svg"
 // Main App Component
 function App() {
     return (
@@ -218,11 +219,11 @@ function App() {
                             <span className="text-xl font-medium text-white">JAVA</span>
                         </div>
 
-                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:accent-red-400">
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:accent-red-300">
                             <img
-                                src="/icons8-spring-boot.svg"
+                                src={springBootLogo}
                                 alt="Spring Boot"
-                                className="h-10 w-10" /* Tailwind sizing */
+                                className="h-10 w-10 text-red-500" /* Tailwind sizing */
                             />
                             <span className="text-xl font-medium text-white">Spring</span>
                         </div>
