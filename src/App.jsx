@@ -116,7 +116,7 @@ function App() {
                                 <span className="bg-yellow-700 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Streamlit</span>
                             </div>
                             <a
-                                href="https://github.com/aswain009/interactivePortfolio"
+                                href="https://github.com/aswain009/3-day-cleanup-and-live-dashboard-for-CSV-exports"
                                 className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors duration-300"
                             >
                                 View Project &rarr;
