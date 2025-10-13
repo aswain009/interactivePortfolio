@@ -1,6 +1,6 @@
 import React from 'react';
 import ContactForm from "./components/ContactForm.jsx";
-import springBootLogo from "assets/icons8-spring-boot.svg"
+import springBootLogo from "./assets/icons8-spring-boot.svg"
 // Main App Component
 function App() {
     return (
