@@ -94,7 +94,7 @@ function App() {
                             <div className="flex flex-wrap gap-2 mb-4">
                                 <span className="bg-red-700 text-red-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Python</span>
                                 <span className="bg-teal-700 text-teal-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">FastAPI</span>
-                                <span className="bg-orange-700 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">SQLModel</span>
+                                <span className="bg-violet-600 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">SQLModel</span>
                             </div>
                             <a
                                 href="https://github.com/aswain009/FastAPICode"
@@ -113,10 +113,29 @@ function App() {
                             <div className="flex flex-wrap gap-2 mb-4">
                                 <span className="bg-purple-700 text-red-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Python</span>
                                 <span className="bg-blue-700 text-teal-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Data Management</span>
-                                <span className="bg-yellow-700 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Streamlit</span>
+                                <span className="bg-pink-600 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Streamlit</span>
                             </div>
                             <a
                                 href="https://github.com/aswain009/3-day-cleanup-and-live-dashboard-for-CSV-exports"
+                                className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors duration-300"
+                            >
+                                View Project &rarr;
+                            </a>
+                        </div>
+
+                        {/* Project Card 5 */}
+                        <div className="bg-gray-800 rounded-xl shadow-xl p-6 transform hover:scale-105 transition-transform duration-300 border border-gray-700 hover:border-indigo-500">
+                            <h3 className="text-2xl font-semibold mb-3 text-white">JAVA/Spring API</h3>
+                            <p className="text-gray-400 mb-4">
+                                This is a Spring application that provides a RESTful API for my web development capstone class project.
+                            </p>
+                            <div className="flex flex-wrap gap-2 mb-4">
+                                <span className="bg-yellow-500 text-red-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">JAVA</span>
+                                <span className="bg-green-500 text-teal-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">Spring</span>
+                                <span className="bg-violet-600 text-orange-100 text-xs font-semibold px-2.5 py-0.5 rounded-full">MySql</span>
+                            </div>
+                            <a
+                                href="https://github.com/aswain009/JAVASpringProjectAPI"
                                 className="text-indigo-400 hover:text-indigo-300 font-medium transition-colors duration-300"
                             >
                                 View Project &rarr;
@@ -190,6 +209,18 @@ function App() {
                             <i className="fab fa-github text-4xl text-gray-400"></i>
                             <span className="text-xl font-medium text-white">Git & GitHub</span>
                         </div>
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:border-blue-200">
+                            <i className="fab fa-docker text-4xl text-blue-400"></i>
+                            <span className="text-xl font-medium text-white">Docker</span>
+                        </div>
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:accent-yellow-500">
+                            <i className="fab fa-java text-4xl text-yellow-300"></i>
+                            <span className="text-xl font-medium text-white">JAVA</span>
+                        </div>
+
+                        <div className="bg-gray-900 rounded-full shadow-lg p-4 flex items-center space-x-3 transform hover:scale-110 transition-transform duration-300 border border-gray-700 hover:accent-red-400">
+                            <i className="fab fa-spring text-4xl text-red-300"></i>
+                            <span className="text-xl font-medium text-white">Spring</span>
                         {/* Add more skills as needed */}
                     </div>
                 </div>
