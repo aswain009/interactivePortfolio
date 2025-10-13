@@ -262,7 +262,7 @@ function App() {
             {/* Footer */}
             <footer className="bg-gray-800 py-8 text-center text-gray-400 text-sm">
                 <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-                    <p>&copy; {new Date().getFullYear()} Adam Swain. All rights reserved.</p>
+                    <p>&copy; {new Date().getFullYear()} Business Name Here. All rights reserved.</p>
                     <p className="mt-2">Built with React & Tailwind CSS</p>
                 </div>
             </footer>
